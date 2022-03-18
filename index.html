@@ -1,16 +1,70 @@
+<!-- All credit for CSS styling and design goes to W3Schools' template. -->
+<!-- This unedited template can be found here: -->
+<!-- https://www.w3schools.com/Css/tryit.asp?filename=trycss_template4 -->
+
 <!DOCTYPE html>
-<html>
-    <head>
-    <title>JustASpeedrunner</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-    </head>
-    <style>
-        h1 {text-align: center;}
-        h2 {text-align: center;}
-        p {text-align: center;}
-    </style>
-    <body style="background-color: black;">
-        <font color="white">
+<html lang="en">
+<head>
+<title>JustASpeedrunner</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  h1 {text-align: center;}
+  h2 {text-align: center;}
+  p {text-align: center;}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style>
+</head>
+<body style="background-color: black;">
+
+<div class="sidenav">
+  <a href="./index.html">Home</a>
+  <a href="./weeddog.html">Weed Dog</a>
+  <a href="./mythoughts.html">Blog/My Thoughts</a>
+</div>
+
+<div class="content">
+    <font color="white">
         <h1>Just A Speedrunner</h1>
         <p>Now you may be wondering, why does this website look like it came straight out of 1996? <br>
             Well to put it simply, HTML alone is a lot easier than learning all the extra CSS and JS that comes with making a good site. <br>
@@ -37,10 +91,9 @@
              <a href="https://discord.gg/RtaeqjkUjw">Discord server for the music artist Lurk</a><br>
             Harem Hoe Discord Bot: A private project made to add simple functionalities to a friend's Discord server.<br>
             Child Bot Discord Bot: A private project made to act like an average obnoxious 12 year old in a friend's Discord server.<br>
-            Weed Dog: An RPG previously made using Lua with the Love2D framework, currently using the Unity game engine since February 9, 2022<br>
-            <a href="./weeddog.html">More on that here</a>
-         </p>
-
-        </font>
-    </body>
+            Weed Dog: An RPG previously made using Lua with the Love2D framework, currently using the Unity game engine since February 9, 2022.
+        </p>
+    </font>
+</div>
+</body>
 </html>
