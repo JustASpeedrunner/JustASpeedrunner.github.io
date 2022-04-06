@@ -1,0 +1,80 @@
+<!-- All credit for CSS styling and design goes to W3Schools' template. -->
+<!-- This unedited template can be found here: -->
+<!-- https://www.w3schools.com/Css/tryit.asp?filename=trycss_template4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Weed Dog</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  h1 {text-align: center;}
+  h2 {text-align: center;}
+  p {text-align: center;}
+  img {
+        width: 100%;
+        height: auto;
+      }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style>
+</head>
+<body style="background-color: black;">
+
+<div class="sidenav">
+  <a href="../index.html">Home</a>
+  <a href="../weeddog">Weed Dog</a>
+  <a href="../mythoughts">Blog/My Thoughts</a>
+</div>
+
+<div class="content">
+    <font color="white">
+        <p>This is where I will catalogue my thoughts on a semi-regular basis.<br>
+        Below you will find a list to all my past entries so you may read them at your leisure.<br></p>
+        <br>
+        <br>
+        <p>There are currently no entries.</p>
+    </font>
+</div>
+</body>
+</html>
